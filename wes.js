@@ -7,8 +7,8 @@ console.log(`Logged in as ${client.user.tag}!`);
 
 
 client.on('ready', async() => {
-var server = "512556758833823764";//ايدي السيرفر
-var channel = "512556850558795777";//ايدي الروم
+var server = "510748422660161536";//ايدي السيرفر
+var channel = "510748422660161538";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا ')
 	},100);
